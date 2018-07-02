@@ -786,7 +786,7 @@ body,
 /* Transparent Header Initial, Hover & Current Nav Colors */
 .header-transparent .navigation > ul > li > a{
 	color: #fff;
-	opacity: 0.6;
+	opacity: 1;
 }
 .header-transparent .navigation > ul > li > a:hover{
 	color: #000;
