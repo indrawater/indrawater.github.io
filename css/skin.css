@@ -201,10 +201,17 @@ h6{
 	font-size: 5.826rem;
 	line-height: 1.2;
 }
-.title-medium{
-	font-size: 2.476rem
+
+.title-medium2{
+	font-size: 3rem;
 	line-height: 1.2;
 }
+
+.title-medium3{
+	font-size: 2.4rem;
+	line-height: 1.2;
+}
+
 .title-small{
 	font-size: 1.4rem;
 	line-height: 1.2;
@@ -1912,6 +1919,9 @@ body,
 .hero-5-2 .media-column{
 	background-image: url(../images/team/hero-half-2.jpg);
 }
+ .hero-5-about-1 .row:after{
+	background-image: url(../images/about.jpg);
+}
 
 /* Call to Action */
 .call-to-action-2-1{
@@ -2023,7 +2033,7 @@ body,
 	background-image: url(../images/services/hero-2.jpg);
 }
 .hero-5-3 .media-column{
-	background-image: url(../images/services/hero-half-1.jpg);
+	background-image: url(../images/about.jpg);
 }
 
 /*------------------------------------------------------------------
@@ -3365,6 +3375,11 @@ blockquote.border{
 [class*="hero-"].window-height{
 	height: 100vh;
 }
+[class*="hero-"].window-height-1{
+	height: 80vh;
+}
+
+
 .hero-5 .center .tms-pagination{
 	text-align: center;
 }
@@ -3857,7 +3872,11 @@ only screen and (				min-resolution: 2dppx) {
 	.stats-1-1{
 		background-image: url(../images/about.jpg);
 	}
-
+    
+    
+    .hero-5-about-1 .row:after{
+	background-image: url(../images/about.jpg);
+}
 	/* Hero Sections */
 	.hero-2-1{
 		background-image: url(../images/team/hero-1@2x.jpg);
