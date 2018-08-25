@@ -8252,8 +8252,10 @@ body.boxed .header .header-inner{
     bottom:0
 }
 .hero-3 .hero-content{
-    background:#fff;
+    background:rgba(0,0,0,0.25);
     position:relative;
+     border-top: none;
+    border-radius: 0.9rem;
     bottom:0
 }
 .hero-3 .hero-content-inner{
@@ -11103,7 +11105,7 @@ body.boxed .blog-masonry.full-width [class*=content-grid]{
     line-height:7rem
 }
 .title-medium{
-    font-size:5rem;
+    font-size:4rem;
     line-height:5rem
 }
 .title-small{

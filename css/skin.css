@@ -208,7 +208,7 @@ h6{
 }
 
 .title-medium3{
-	font-size: 2.4rem;
+	font-size: 3rem;
 	line-height: 1.2;
 }
 
@@ -610,8 +610,8 @@ body,
 
 /* Transparent Header Initial & Active Nav Colors */
 .header-transparent .header-inner{
-	background-color: transparent;
-	border-bottom: 1px solid transparent;
+	background-color: #fff;
+	border-bottom: 1px solid #ccc;
 }
 .header-transparent .header-inner > .nav-bar{
 	border-bottom: 1px solid rgba(255,255,255, 0.2);
@@ -792,16 +792,16 @@ body,
 
 /* Transparent Header Initial, Hover & Current Nav Colors */
 .header-transparent .navigation > ul > li > a{
-	color: #fff;
+	color: #000;
 	opacity: 1;
 }
 .header-transparent .navigation > ul > li > a:hover{
-	color: #000;
+	color: #0cbacf;
 	opacity: 1;
 }
 .header-transparent .navigation > ul > li.current > a,
 .header-transparent .navigation > ul > li.current > a:hover{
-	color: #000;
+	color: #0cbacf;
 	opacity: 1;
 }
 
@@ -2923,7 +2923,7 @@ textarea.required-field{
 .footer .widget,
 .footer address{
 	font-size: 1.3rem;
-	color: #999;
+	color: #444;
 	text-transform: none;
 	font-style: normal;
 }
@@ -2931,7 +2931,7 @@ textarea.required-field{
 	font-size: 1.3rem;
 }
 .footer-top a:not(.button){
-	color: #999;
+	color: #444;
 }
 .footer-bottom a{
 	font-size: 1.1rem;
