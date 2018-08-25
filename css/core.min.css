@@ -1456,6 +1456,10 @@ a.overlay-info:hover{
 .content-grid-7 .grid-item{
     width:14%
 }
+.content-grid-9 .grid-item{
+    width:11%
+}
+
 
 .row [class*=content-grid-].no-margins,[class*=content-grid-].no-margins{
     margin-right:0!important;
@@ -3115,7 +3119,7 @@ ol ol,ol ul,ul ol,ul ul{
 .box{
     width:100%;
     padding:2.5rem;
-    border:1px solid #eee;
+    border:none;
     overflow:hidden;
     position:relative
 }
