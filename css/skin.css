@@ -65,6 +65,10 @@ src: url("../fonts/ms300.ttf") format("truetype");
     src: url("../fonts/ms500.ttf") format("truetype");
 }
 
+@font-face {
+font-family: "ms900";
+src: url("../fonts/ms900.ttf") format("truetype");
+}
 
 @font-face {
     font-family: "ms500i";
@@ -246,17 +250,25 @@ blockquote.large{
 
 /* Weight Classes */
 .weight-light{
+    font-family:  'ms300', 'Open Sans', 'Lato', 'Helvetica Neue', sans-serif;
 	font-weight: 300;
 }
 .weight-regular{
 	font-weight: 400;
 }
-.weight-semi-bold{
-	font-weight: 600;
+.weight-sbold{
+    font-family:  'ms500', 'Open Sans', 'Helvetica Neue', sans-serif;
+	font-weight: 500;
 }
 .weight-bold{
+    font-family:  'ms700', 'Open Sans', 'Helvetica Neue', sans-serif;
 	font-weight: 700;
 }
+.weight-ebold{
+    font-family:  'ms900', 'Open Sans', 'Helvetica Neue', sans-serif;
+	font-weight: 900;
+}
+
 
 /* Links */
 a.animated-link{
@@ -792,7 +804,7 @@ body,
 
 /* Transparent Header Initial, Hover & Current Nav Colors */
 .header-transparent .navigation > ul > li > a{
-	color: #000;
+	color: #999;
 	opacity: 1;
 }
 .header-transparent .navigation > ul > li > a:hover{
@@ -3377,6 +3389,9 @@ blockquote.border{
 }
 [class*="hero-"].window-height-1{
 	height: 80vh;
+}
+.window-height-2{
+	height: 60vh; !important
 }
 
 
